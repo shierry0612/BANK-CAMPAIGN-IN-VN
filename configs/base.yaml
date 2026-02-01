@@ -1,0 +1,17 @@
+project:
+  name: vn-bank-campaign-ml
+  seed: 42
+
+paths:
+  raw_csv: data/raw/bank_customer_vn.csv
+  interim_parquet: data/interim/bank_customers_clean.parquet
+
+spark:
+  app_name: vn_bank_campaign_ingestion
+  master: local[*]
+
+ingestion:
+  csv:
+    header: true
+    sep: ","
+    inferSchema: true

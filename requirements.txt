@@ -1,0 +1,15 @@
+pyspark==3.5.1
+pyyaml==6.0.1
+pyarrow==16.1.0
+pandas==2.2.2
+matplotlib 
+joblib
+scikit-learn 
+joblib 
+lightgbm 
+xgboost 
+pandas 
+pyarrow 
+numpy 
+s3fs
+boto3
